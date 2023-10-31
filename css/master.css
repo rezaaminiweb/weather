@@ -1,0 +1,168 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/pexels-pixabay-258173.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(10px); /* تنظیم میزان بلوری که می‌خواهید */
+}
+
+.divbozorg {
+  background-image: linear-gradient(150deg, rgba(72, 225, 182, 0.5764705882), rgba(62, 64, 96, 0.6196078431));
+  padding: 3rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 9rem;
+}
+
+.span1add {
+  font-size: 2rem;
+  margin-left: 0.3rem;
+}
+@media screen and (max-width: 600px) {
+  .span1add {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .span1add {
+    font-size: 1.5rem;
+  }
+}
+
+#berlin {
+  letter-spacing: 2px;
+  margin: 1rem 0rem;
+}
+
+.input1 > input {
+  width: 60%;
+  outline: none;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 25px 0px black;
+  text-transform: uppercase;
+}
+.input1 > input:active {
+  box-shadow: 0px 0px 15px 0px black;
+}
+.input1 > input::-moz-placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.input1 > input::placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 576px) {
+  .input1 > input {
+    padding: 0.7rem;
+    width: 70%;
+  }
+}
+.input1 > i {
+  display: flex;
+  width: auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bolder;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 25px 0px black;
+}
+.input1 > i:active {
+  box-shadow: 0px 0px 15px 0px black;
+  font-size: 17px;
+}
+
+.astic {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.astic > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+.astic > div > h1 {
+  height: 100%;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 576px) {
+  .astic > div > h1 {
+    font-size: 1rem;
+  }
+}
+.astic > div > span {
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+  .astic > div > span {
+    font-size: 1rem;
+  }
+}
+.astic > h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .astic > h4 {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=master.css.map */

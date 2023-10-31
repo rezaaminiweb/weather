@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 53,
+        "lat": 32
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 23.62,
+        "feels_like": 22.61,
+        "temp_min": 23.62,
+        "temp_max": 23.62,
+        "pressure": 1017,
+        "humidity": 22,
+        "sea_level": 1017,
+        "grnd_level": 857
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 8.45,
+        "deg": 51,
+        "gust": 7.4
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1698752895,
+    "sys": {
+        "country": "IR",
+        "sunrise": 1698720192,
+        "sunset": 1698759594
+    },
+    "timezone": 12600,
+    "id": 130758,
+    "name": "Iran",
+    "cod": 200
+}
