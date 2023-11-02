@@ -46,7 +46,7 @@ async function fetchdata(){
     }
          if (city == 'usa'){
         switch(y.weather[0].main){
-            case 'Clouds' : imgaval.src='images/Clouds.png';break;
+            case 'Clouds' : imgaval.src='images/clouds.png';break;
             case 'Rain' : imgaval.src = 'images/rain.png';break;
             case 'clear' : imgaval.src = 'images/clear.png'; break;
             case 'Drizzle':imgaval.src = 'images/drizzle.png';break;
