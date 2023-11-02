@@ -95,7 +95,7 @@ li {
 @media screen and (max-width: 576px) {
   .input1 > input {
     padding: 0.7rem;
-    width: 70%;
+    width: 67%;
   }
 }
 .input1 > i {
@@ -117,6 +117,12 @@ li {
 .input1 > i:active {
   box-shadow: 0px 0px 15px 0px black;
   font-size: 17px;
+}
+@media screen and (max-width: 576px) {
+  .input1 > i {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .astic {
